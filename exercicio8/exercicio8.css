@@ -1,0 +1,43 @@
+ /* Estilo básico para o body */
+ body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: plum;
+}
+
+/* Container principal */
+.container {
+    margin-top: 50px;
+}
+
+/* Estilo para os labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilo para os inputs */
+input{
+    padding: 12px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+/* Estilo para o botão */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(157, 81, 228);
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+/* Estilo para o resultado */
+.result {
+    margin-top: 20px;
+    display: none;
+    font-size: 25px;
+}
